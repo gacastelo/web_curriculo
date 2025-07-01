@@ -1,0 +1,14 @@
+Sessões Principais:
+
+Informações:
+    Informações pessoais
+        nome, email, telefone, endereço
+    Informações profissionais # devem poder ser repetidas, possivelmente usando arrays
+        experiência profissional
+            empresa, cargo, tempo de trabalho
+        formação acadêmica
+            escola, curso, data de conclusão
+    
+
+Apresentação:
+    usar include pra fazer o curriculo carregar

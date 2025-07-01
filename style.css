@@ -1,0 +1,137 @@
+
+.modelo1 {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.modelo1 .contato,
+.modelo1 .informacoes-profissionais,
+.modelo1 .informacoes-academicas {
+    margin-bottom: 20px;
+}
+.modelo1 .contato p,
+.modelo1 .informacoes-profissionais p,
+.modelo1 .informacoes-academicas p {
+    margin-bottom: 10px;
+}
+.modelo1 h1 {
+    text-align: center;
+}
+.modelo1 .bola{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelo1 .skill{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.modelo1 .habilidades p{
+    margin-left: 10px;
+}
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    form {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .personal-info, .work-experience, .education, .skills {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fafafa;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 500;
+        color: #444;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    textarea {
+        min-height: 80px;
+        resize: vertical;
+    }
+
+    select {
+        background-color: #fff;
+    }
+
+    button[type="submit"] {
+        align-self: center;
+        padding: 12px 24px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+        .container {
+            padding: 15px;
+        }
+
+        h1, h2 {
+            font-size: 1.2rem;
+        }
+    }
