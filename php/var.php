@@ -10,13 +10,4 @@
         $habilidade1 = isset($_POST['habilidade1']) ? $_POST['habilidade1'] : '';
         $habilidade2 = isset($_POST['habilidade2']) ? $_POST['habilidade2'] : '';
         $habilidade3 = isset($_POST['habilidade3']) ? $_POST['habilidade3'] : '';
-        if ($tipo == "curriculum-vitae") {
-            include "models/modelo1.php";
-        } elseif ($tipo == "Colunas") {
-            include "models/modelo2.php";
-        } elseif ($tipo == "Blocos") {
-            include "models/modelo3.php";   
-        } elseif ($tipo == "Minimalista") {
-            include "models/modelo4.php";
-        }
 ?>
