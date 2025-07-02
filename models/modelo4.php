@@ -1,5 +1,7 @@
 <div>
-    <article class="modelo4" style="max-width: 800px; margin: auto; font-family: 'Segoe UI', sans-serif; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;" id="curriculo">
+    <article class="modelo4"
+        style="max-width: 800px; margin: auto; font-family: 'Segoe UI', sans-serif; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;"
+        id="curriculo">
         <div style="background-color: #222; color: white; padding: 20px;">
             <h1><?php echo $nome; ?></h1>
             <p><?php echo $email; ?> | <?php echo $telefone; ?></p>

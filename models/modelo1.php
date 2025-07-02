@@ -23,16 +23,16 @@
             <h2>Habilidades</h2>
             <div>
                 <div class="skill">
-                <div class="bola">1</div>
-                <p><?php echo $habilidade1; ?></p>
+                    <div class="bola">1</div>
+                    <p><?php echo $habilidade1; ?></p>
                 </div>
                 <div class="skill">
-                <div class="bola">2</div>
-                <p><?php echo $habilidade2; ?></p>
+                    <div class="bola">2</div>
+                    <p><?php echo $habilidade2; ?></p>
                 </div>
                 <div class="skill">
-                <div class="bola">3</div>
-                <p><?php echo $habilidade3; ?></p>
+                    <div class="bola">3</div>
+                    <p><?php echo $habilidade3; ?></p>
                 </div>
             </div>
         </section>

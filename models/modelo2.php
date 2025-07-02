@@ -22,6 +22,6 @@
         </section>
     </article>
     <footer>
-            <p>&copy; Gabriel Castelo. Todos os direitos reservados.</p>
+        <p>&copy; Gabriel Castelo. Todos os direitos reservados.</p>
     </footer>
 </div>
