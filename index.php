@@ -1,7 +1,4 @@
-<?php
-include("php/var.php");
-?>
-
+<?php include("php/var.php"); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,9 +7,6 @@ include("php/var.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição do site">
     <link rel="stylesheet" href="config/style.css">
-    <style>
-        
-    </style>
     <title>Meu Currículo</title>
 </head>
 
