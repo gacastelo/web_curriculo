@@ -19,7 +19,7 @@
             <form action="index.php" method="post">
                 <div class="personal-info">
                     <h2>Informações Pessoais</h2>
-                    <label for="nome">Nome:</label>
+                    <label for="nome">Nome:</label> 
                     <input type="text" id="nome" name="nome" required placeholder="Ex: Gabriel Castelo"
                         value="<?php echo isset($_POST['nome']) ? htmlspecialchars($_POST['nome']) : ''; ?>">
 
@@ -29,7 +29,7 @@
 
                     <label for="telefone">Telefone:</label>
                     <input type="tel" id="telefone" name="telefone" required pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}"
-                        placeholder="(99) 99999-9999"
+                        title="Número de telefone precisa ser no formato (99) 9999-9999" placeholder="(99) 99999-9999"
                         value="<?php echo isset($_POST['telefone']) ? htmlspecialchars($_POST['telefone']) : ''; ?>">
 
                     <label for="endereco">Endereço:</label>

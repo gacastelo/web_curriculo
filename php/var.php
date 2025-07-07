@@ -10,4 +10,5 @@ $experience = isset($_POST['profissional']) ? $_POST['profissional'] : '';
 $habilidade1 = isset($_POST['habilidade1']) ? $_POST['habilidade1'] : '';
 $habilidade2 = isset($_POST['habilidade2']) ? $_POST['habilidade2'] : '';
 $habilidade3 = isset($_POST['habilidade3']) ? $_POST['habilidade3'] : '';
+# TODO da pra tirar essas variaveis e subistituie pelo post direto
 ?>

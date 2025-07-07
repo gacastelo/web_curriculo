@@ -24,9 +24,10 @@
                     <li><?php echo $habilidade3; ?></li>
                 </ul>
             </section>
-        </div>
+        
         <footer>
             <p>&copy; Gabriel Castelo. Todos os direitos reservados.</p>
         </footer>
+        </div>
     </article>
 </div>
